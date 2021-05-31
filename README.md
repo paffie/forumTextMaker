@@ -10,6 +10,8 @@
 
 ## 使用方法
 下载zip解压，用浏览器打开index.html即可
+![图片](https://user-images.githubusercontent.com/58645766/120155857-e4035680-c223-11eb-8318-ccef9f00ef97.png)
+
 
 ## 预计更新的功能（咕咕咕）
 · 自定义格式  
