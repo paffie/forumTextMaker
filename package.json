@@ -1,0 +1,44 @@
+{
+  "main": "index.html",
+  "version": "1.0.0",
+  "name": "forummaker",
+  "description": "demo app of forum",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "forum",
+    "maker"
+  ],
+  "window": {
+    "title": "论坛体生成器",
+    "icon": "icon.ico",
+    "toolbar": false,
+    "frame": true,
+    "width": 1000,
+    "height": 800,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 9999,
+    "max_height": 9999,
+    "as_desktop": false,
+    "resizable": true,
+    "always-on-top": true,
+    "fullscreen": false,
+    "show_in_taskbar": true,
+    "show": true,
+    "kiosk": false
+  },
+  "webkit": {
+    "plugin": true,
+    "java": false,
+    " page-cache": false
+  },
+  "devDependencies": {
+    "electron": "^13.0.1"
+  },
+  "dependencies": {
+    "electron-packager": "^15.2.0"
+  }
+}

@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>论坛生成器</title>
+  <link rel="stylesheet" href="/public/css/main.css" />
+  <script type="text/javascript" src="/public/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/public/js/function.js"></script>
+</head>
+<body class="homepage is-preload">
+<div id="page-wrapper">
+  <section id="footer">
+    <div class="container">
+      <header>
+        <h1>论坛生成器<strong>ver 1.0</strong></h1>
+      </header>
+      <div class="row">
+        <div class="col-6 col-12-medium">
+          <section>
+            <form method="post" action="#">
+              <div class="row gtr-50">
+                <div class="col-4 col-8-small">
+                  <label>
+                    <input name="level" placeholder="楼层(数字)" type="text" />
+                  </label>
+                </div>
+                <div class="col-4 col-8-small">
+                  <label>
+                    <input name="name" placeholder="用户名" type="text" />
+                  </label>
+                </div>
+                <div class="col-4 col-8-small">
+                  <label>
+                    <input name="rank" placeholder="等级(数字)" type="text" />
+                  </label>
+                </div>
+                <div class="col-12">
+                  <label>
+                    <textarea name="content" placeholder="内容"></textarea>
+                  </label>
+                </div>
+                <div class="col-12">
+                  <a href="#" class="form-button-submit button icon solid fa-gavel" onclick="make()">生成</a>
+                  <a href="#" class="form-button-submit button icon solid fa-check" onclick="clear()">下一楼</a>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+        <div class="col-6 col-12-medium">
+          <section>
+            <form method="post" action="#">
+              <div class="row gtr-50">
+                <div class="col-11 col-12-small">
+                  <label>
+                    <input name="nowLevel" placeholder="目前楼层" type="text" />
+                  </label></div>
+                <div class="col-12">
+                  <label>
+                    <textarea name="output" placeholder="内容"></textarea>
+                  </label>
+                </div>
+                <div class="col-12">
+                  <a href="#" class="form-button-submit button icon solid fa-clone" onclick="copy()">复制</a>
+                  <a href="#" class="form-button-submit button icon solid fa-circle" onclick="clean()">清空全部</a>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div id="copyright" class="container">
+      <ul class="links">
+        <li>小小屑作，不足挂齿。</li><li>使用: HTML5 UP</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
